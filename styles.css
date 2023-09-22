@@ -1,0 +1,200 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(0, 0, 0);
+    font-family:monospace;
+}
+
+ 
+
+nav {
+
+    text-align: left;
+    padding-left: 150px;
+    font-size: 30px;
+}
+
+.router-link-exact-active {
+    color: rgb(145, 236, 145);
+}
+ 
+nav .name {
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;  
+}
+
+nav a:hover {
+    color: rgb(145, 236, 145);
+}
+
+
+#Home h1 {
+
+    font-size: 20px;
+    color: rgb(145, 236, 145);
+    text-align: right;
+    margin-right: 1400px;
+    padding-left: 50px;
+}
+
+#Home .name {
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+form {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+#Home h2 {
+    font-size: 20px;
+    color: rgb(145, 236, 145);
+    text-align: right;
+    margin-right: 1420px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 0.8em;
+    }
+}
+
+.description-box {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 2px solid rgb(145, 236, 145);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+#ITSkills {
+    text-align: center;
+    padding: 20px;
+    color: white; 
+}
+
+#ITSkills button {
+    background-color: rgb(145, 236, 145); 
+    border: none;
+    color: black; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#ITSkills p {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 2px solid rgb(145, 236, 145);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    color: white; 
+    font-size: 25px;
+}
+
+.education, .work {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 2px solid rgb(145, 236, 145);
+    padding: 20px;
+    width: 45%; 
+    box-sizing: border-box;
+    max-height: 300px; 
+    overflow-y: auto;
+}
+
+#Experience {
+    padding: 20px;
+    color: white; 
+}
+
+#Experience h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+
+
+
+.education h2, .work h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education ul, .work ul {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#Contact {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#Contact h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#Contact label,
+#Contact input,
+#Contact textarea {
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 5px;
+    border: 2px solid rgb(145, 236, 145);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+#Contact input[type="submit"] {
+    background-color: rgb(145, 236, 145);
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+#Contact input[type="submit"]:hover {
+    background-color: white;
+    color: rgb(145, 236, 145);
+}

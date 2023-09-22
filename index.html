@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+ 
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://unpkg.com/vue@3"></script>
+<script src="https://unpkg.com/vue-router@4"></script>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+</head>
+
+ 
+
+<body>
+
+  <div id="Home">
+    <h1> &lt;<span class="name">Julian Biondo</span>/&gt; </h1>
+    <h2>ICT Coordinator</h2>
+    
+    </div>
+ 
+
+    <div id="app">
+      <nav>
+          <router-link to="/">&lt;<span class="name">Home</span>/&gt;</router-link>
+          <router-link to="/itskills">&lt;<span class="name">IT Skills</span>/&gt;</router-link>
+          <router-link to="/experience">&lt;<span class="name">Experience</span>/&gt;</router-link>
+          <router-link to="/contact">&lt;<span class="name">Contact</span>/&gt;</router-link> 
+      </nav>
+      <router-view></router-view>
+  </div>
+
+ 
+
+  <script src="app.js"></script>
+</body>
+
+ 
+
+</html>
